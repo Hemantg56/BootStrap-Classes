@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> bootstrap Container and Container-fulid </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <h4 class="text-danger">Container==></h4>
+    <p>1. container ne main div ma mukavanu</p>
+    <div class="main bg-secondary text-white  container">
+        container
+    </div>
+    <p>2. container aapo to start and end thi space layi ne aave darek barckpoint na pramane fix with thayi jaay</p>
+    <div class="main bg-secondary text-white  container">
+        <div class="logo bg-primary">Logo</div>
+        <div class="cname bg-warning">Company</div>
+    </div>
+    <p>3. container na sathe row hoy tho container kaam nahi kare ena mate row-class mate ek extra div levu pade </p>
+    <div class="main bg-secondary text-white row container">
+        <div class="logo bg-primary w-50">Logo</div>
+        <div class="cname bg-warning w-50">Company</div>
+    </div>
+
+
+    <h4 class="text-danger mt-5">Container-Fulid==></h4>
+    <p>1. container-fulid ne main div ma mukavanu</p>
+    <div class="main bg-secondary text-white  container-fulid">
+        container
+    </div>
+    <p>2. container-fulid aapo to 100% width hoy badha brackpoint ma 100% width hoy</p>
+    <div class="main bg-secondary text-white  container-fulid">
+        <div class="logo bg-primary">Logo</div>
+        <div class="cname bg-warning">Company</div>
+    </div>
+    <p>3. container na sathe row hoy tho container-fluid ma scrollbar active thay che</p>
+    <div class="main bg-secondary text-white row container-fulid">
+        <div class="logo bg-primary w-50">Logo</div>
+        <div class="cname bg-warning w-50">Company</div>
+    </div>
+
+    <p>4. container na sathe d-flex class hoy tho container-fluid ma scrollbar active nahi thay</p>
+    <div class="main bg-secondary text-white d-flex container-fulid">
+        <div class="logo bg-primary w-50">Logo</div>
+        <div class="cname bg-warning w-50">Company</div>
+    </div>
+</body>
+
+</html>
